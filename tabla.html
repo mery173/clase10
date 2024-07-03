@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Certus</title>
+    <link rel="stylesheet" href="css/hoja01.css">
+    <script src="js/codigo.js"></script>
+</head>
+<body>
+    <div style="width: 75%; margin:auto;">
+        <div style="float:left;">
+            INSTITUTO CERTUS
+        </div> 
+        <div style="float:right;">
+            programacion web - while
+        </div> 
+        <div>
+            <img src="img/banner2.jpg" width="100%" alt="">
+        </div>
+    </div>    
+    <div class="cuerpo">
+        <div id="barra">
+            <p style="text-align:center ; margin-bottom: 30px;">Menu Principal </p>
+            <ul>
+                <li> <a href="#" onclick="mostrarpag('pagina1')">>Cartelera</li></a>
+                <li> <a href="#" onclick="mostrarpag('pagina2')">Estrenos</li></a>
+                <li> <a href="#" onclick="mostrarpag('pagina3')">Promocion</li></a>
+                <li> <a href="#" onclick="mostrarpag('pagina4')">Pases</li></a>
+                <li> <a href="#" onclick="cerrar();">Cerrar sesion </a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+            <div id="pagina1" class="pag active">
+                <h1>Cartelera</h1>
+                <p> Capacidad 30 personas</p>
+                <img src="img/cartelera2.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina2" class="pag ">
+                <h1>Estrenos de Peliculas</h1>
+                <p style="font: size 12px; ;">Solo los lunes - jueves - domingo</p>
+                <img src="img/estrenos.jfif" width="100%" alt="">
+            </div>
+            <div id="pagina3" class="pag ">
+                <h1>Promociones</h1>
+                <p>Promociones especiales solo los Lunes - Jueves</p>
+                <img src="img/promociones.jpg" width="100%" alt="">
+                </div>
+                <div id="pagina4" class="pag ">
+                    <h1>Pases</h1>
+                    <p>Pases especiales solo los Martes - Jueves</p>
+                    <img src="img/tikecs.avif" width="100%" alt="">
+                    </div>
+            </div>
+        </div>
+        <div class="pie">
+            <div style="width: 100%;">
+                <div style="text-align: center ;">
+                    Autor : Mery Molina Acuña <br>
+                    Instituto Certus | Carreras tecnicas y Educacion continua 
+                    
+                </div>
+        
+            </div>
+        </div>
+         
+</body>
+</html>

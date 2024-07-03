@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> While - Ejemplo 02 </title>
+</head>
+<body>
+    <script>
+        // Ingresar 4 numeros y mostrar cual es el mayor de ellos 
+        let num = 0;// Inicializar
+        let k = 1; // Variable Contador 
+        let xmax =  parseInt (prompt(" Ingrese numero :"));//se agrega la variable para maximo numero con el pase que vendria a ser uno de los numeros iniciales y se menora uno en el while
+        while( k <= 3){
+            num = parseInt (prompt(" Ingrese numero :"))
+            if ( num >= xmax){
+                xmax = num;
+            }
+            document.write(num + "<br>")
+            k = k + 1;
+        }
+        document.write(" El mayo es:" + xmax);
+    </script>
+</body>
+</html>
